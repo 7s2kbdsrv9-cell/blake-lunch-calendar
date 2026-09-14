@@ -93,30 +93,48 @@ def detect_month_and_year(page):
 
 
 def extract_calendar_table(page):
-    settings = {
-        "vertical_strategy": "lines",
-        "horizontal_strategy": "lines",
-        "intersection_tolerance": 8,
-        "snap_tolerance": 5,
-        "join_tolerance": 5,
-    }
+    year, month = detect_month_and_year(page)
+    week_count = len(
+        calendar.Calendar(
+            firstweekday=calendar.MONDAY
+        ).monthdayscalendar(year, month)
+    )
 
-    candidates = page.extract_tables(settings)
+    # Blake uses the same five-column calendar area on its monthly PDFs.
+    # These values are proportions so they continue to work if the PDF
+    # page dimensions change slightly.
+    left = page.width * 0.030
+    right = page.width * 0.970
+    body_top = page.height * 0.159
+    body_bottom = page.height * 0.854
 
-    for table in candidates:
-        if not table or len(table) < 2:
-            continue
+    column_width = (right - left) / 5
+    row_height = (body_bottom - body_top) / week_count
 
-        first_row = " ".join(str(cell or "") for cell in table[0]).upper()
+    table = [
+        ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"]
+    ]
 
-        if (
-            len(table[0]) >= 5
-            and "MONDAY" in first_row
-            and "FRIDAY" in first_row
-        ):
-            return [row[:5] for row in table]
+    for row_number in range(week_count):
+        row = []
 
-    raise RuntimeError("Could not reliably locate the calendar grid.")
+        for column_number in range(5):
+            x0 = left + column_number * column_width
+            x1 = left + (column_number + 1) * column_width
+            y0 = body_top + row_number * row_height
+            y1 = body_top + (row_number + 1) * row_height
+
+            cell = page.crop((x0, y0, x1, y1))
+            text = cell.extract_text(
+                x_tolerance=2,
+                y_tolerance=3,
+            )
+
+            row.append(text or "")
+
+        table.append(row)
+
+    return table
 
 
 def clean_cell(cell):
