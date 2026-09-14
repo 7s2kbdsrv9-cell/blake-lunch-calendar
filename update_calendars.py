@@ -46,8 +46,52 @@ def download(url):
 
 def find_menu_urls():
     html = download(MENU_PAGE).decode("utf-8", errors="replace")
-    soup = BeautifulSoup(html, "html.parser")
+
+    # Finalsite sometimes stores links inside page data rather than normal
+    # HTML anchors. Decode the common escaped forms before searching.
+    searchable = (
+        html.replace("\\/", "/")
+        .replace("\\u002F", "/")
+        .replace("\\u002f", "/")
+        .replace("&amp;", "&")
+    )
+
+    soup = BeautifulSoup(searchable, "html.parser")
     found = {}
+
+    for key, config in CALENDARS.items():
+        filename = config["pdf_name"]
+
+        # First try ordinary links.
+        for link in soup.find_all("a", href=True):
+            href = link["href"]
+            if filename in href:
+                found[key] = urljoin(MENU_PAGE, href)
+                break
+
+        # Then search page data and scripts for the PDF URL.
+        if key not in found:
+            pattern = rf"""(?P<url>
+                https?://[^"'<>\\s]+{re.escape(filename)}
+                |
+                /[^"'<>\\s]*{re.escape(filename)}
+            )"""
+
+            match = re.search(
+                pattern,
+                searchable,
+                flags=re.IGNORECASE | re.VERBOSE,
+            )
+
+            if match:
+                found[key] = urljoin(MENU_PAGE, match.group("url"))
+
+        if key not in found:
+            raise RuntimeError(
+                f"Could not find {filename} on Blake's lunch page."
+            )
+
+    return found
 
     for key, config in CALENDARS.items():
         for link in soup.find_all("a", href=True):
