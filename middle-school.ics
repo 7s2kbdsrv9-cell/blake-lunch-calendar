@@ -1,0 +1,225 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Blake Lunch Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Blake Middle School Lunch
+BEGIN:VEVENT
+UID:blake-middle-school-20260901@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:MS Lunch: Hamburger
+DESCRIPTION:Hamburger\nV-Beyond Burger\nMushrooms and Onions\nKettle Pota
+ to Chips\nCheese\, Lettuce\, Tomato and\nOnion\nPizza Day\nIce Cream Tre
+ at
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260902@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:MS Lunch: Build Your Own Pasta Bar
+DESCRIPTION:Build Your Own Pasta Bar\nMeat Sauce\nV-Marinara\nV-Alfredo S
+ auce\nGarlic Green Beans\nChocolate Chip Cookie
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260903@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:MS Lunch: BBQ Chicken
+DESCRIPTION:BBQ Chicken\nV-Summer Power Bowl\nMashed Yukon Potatoes\nSwee
+ t Corn\nPizza Day\nItalian Ice
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260904@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:MS: Indian Butter Chicken Vegetarian Makhani Basmati Rice Peas Sn
+ ickerdoodle Early Dismissal
+DESCRIPTION:Indian Butter Chicken\nVegetarian Makhani\nBasmati Rice\nPeas
+ \nSnickerdoodle\nEARLY DISMISSAL
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260907@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:MS: No School (Labor Day)
+DESCRIPTION:NO SCHOOL (LABOR\nDAY)
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260908@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:MS Lunch: Chili Cheese Beef Hot Dog
+DESCRIPTION:Chili Cheese Beef Hot Dog\nV-Beyond Brat\nTater Tots\nV-Baked
+  Beans\nPizza Day\nMini Donuts
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260909@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:MS Lunch: Chicken Fajita
+DESCRIPTION:Chicken Fajita\nV-Refried Bean Fajita\nCilantro Lime Rice\nPe
+ ppers and Onions\nMexican Chocolate Brownie
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260910@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:MS Lunch: Asian Pork Loin
+DESCRIPTION:Asian Pork Loin\nV-Asian Power Bowl\nChili Crunch Rice Noodle
+ s\nPlantains\nPizza Day\nBanana Pudding
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260911@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:MS: Early Dismissal (Convocation)
+DESCRIPTION:EARLY DISMISSAL\n(CONVOCATION)
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260914@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:MS Lunch: Pesto Pasta
+DESCRIPTION:Pesto Pasta\nParmesan Roasted Tomatoes\nGreen Beans\nGarlic B
+ readstick\nFrozen Treat
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260915@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:MS Lunch: Rotisserie Roasted Chicken
+DESCRIPTION:Rotisserie Roasted Chicken\nV-Roasted Chickpeas and\nTofu\nSm
+ ashed Yukon Potatoes\nCorn\nPizza Day\nBrookie
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260916@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:MS Lunch: Warm Ham and Cheese
+DESCRIPTION:Warm Ham and Cheese\nCroissant\nV-Caprese Croissant\nLemon As
+ paragus\nSweet Potato Fries\nCherry Crisp
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260917@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:MS Lunch: Italian Sausage Lasagna
+DESCRIPTION:Italian Sausage Lasagna\nV-Three Cheese Lasagna\nRoasted Caul
+ iflower\nPizza Day\nSugar Cookie
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260918@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:MS Lunch: Sloppy Joe
+DESCRIPTION:Sloppy Joe\nV-Vegetarian Sloppy Joe\nRoasted Broccoli\nPotato
+  Chips\nChocolate Pudding
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260921@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:MS: No School (Yom Kippur)
+DESCRIPTION:NO SCHOOL (YOM\nKIPPUR)
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260922@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:MS Lunch: Baked White Fish
+DESCRIPTION:Baked White Fish\nVegan Persian Tofish\nLemon Herb Orzo\nVege
+ table Medley\nPizza Day\nCinnamon Streusel Cake
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260923@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:MS Lunch: Top Your Own Mac and
+DESCRIPTION:Top Your Own Mac and\nCheese\nChicken\nBacon\nBroccoli\nPeas\
+ nPopsicle
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260924@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:MS Lunch: Beef Rendang
+DESCRIPTION:Beef Rendang\nV-Chickpea Rendang\nJasmine Rice\nRomanesco\nPi
+ zza Day\nChocolate Chip Cookie
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260925@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:MS Lunch: Orange Chicken
+DESCRIPTION:Orange Chicken\nV-Orange Cauliflower\nRice\nStir Fry Vegetabl
+ es\nEgg Roll\nFortune Cookie
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260928@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:MS Lunch: French Toast Bake
+DESCRIPTION:French Toast Bake\nSausage\nVegan Sausage\nOatmeal\nMuffin
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260929@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:MS Lunch: Pulled Pork Sandwich
+DESCRIPTION:Pulled Pork Sandwich\nV-Jackfruit Sandwich\nPotato Salad\nCol
+ eslaw\nPizza Day\nFrozen Treat
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-middle-school-20260930@github
+DTSTAMP:20260914T180619Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:MS Lunch: Santa Fe Rice Bowl Chicken
+DESCRIPTION:Santa Fe Rice Bowl Chicken\nV-Santa Fe Rice Bowl Black\nBeans
+ \nCheese Sauce\nChipotle Cream Sauce\nRoasted Corn and Peppers\nDonut
+LOCATION:The Blake School
+END:VEVENT
+END:VCALENDAR
