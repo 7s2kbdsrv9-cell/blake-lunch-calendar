@@ -209,4 +209,216 @@ DESCRIPTION:Chicken and Rice Bowl\nV-Black Bean and Rice Bowl\nCorn and P
  eppers
 LOCATION:The Blake School
 END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261001@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:UE Lunch: Chicken Bacon Ranch Melt
+DESCRIPTION:Chicken Bacon Ranch Melt\nV Veggie Ranch Melt\nTortilla Chips
+ \nMini Donuts
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261002@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:UE Lunch: Swedish Meatloaf
+DESCRIPTION:Swedish Meatloaf\nV Vegan Swedish Meatballs\nMashed Potatoes\
+ nCorn
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261005@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:UE Lunch: Linguine with Tomato & Basil
+DESCRIPTION:Linguine with Tomato & Basil\nLemon Asparagus
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261006@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:UE Lunch: Pizza Day
+DESCRIPTION:Pizza Day\nBroccoli
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261007@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:UE Lunch: Birria Beef Tacos
+DESCRIPTION:Birria Beef Tacos\nV Refried Bean Taco\nRice\nRoasted Corn an
+ d Peppers
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261008@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:UE Lunch: Cumin & Chili Crusted Chicken
+DESCRIPTION:Cumin & Chili Crusted Chicken\nV Chili Crunch Power Bowl\nRoa
+ sted Sweet Potatoes\nChocolate Chip Cookie
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261009@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:UE Lunch: Dill Pickle Chicken Sandwich
+DESCRIPTION:Dill Pickle Chicken Sandwich\nV Vegan Chicken Sandwich\nKettl
+ e Chips\nHouse Pickled Veggie
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261012@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:UE Lunch: Mac and Cheese Bar
+DESCRIPTION:Mac and Cheese Bar\nBacon Bits\nChicken\nPeas\nBroccoli
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261013@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:UE Lunch: Grilled Cheese
+DESCRIPTION:Grilled Cheese\nTater Tots\nPeas
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261014@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:UE Lunch: CONFERENCES
+DESCRIPTION:CONFERENCES
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261015@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:UE Lunch: CONFERENCES
+DESCRIPTION:CONFERENCES
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261016@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:UE: No School
+DESCRIPTION:NO SCHOOL
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261019@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:UE Lunch: General Tso's Chicken
+DESCRIPTION:General Tso's Chicken\nV General Tso's Cauliflower\nStir Fry 
+ Veggies\nBrown Rice
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261020@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:UE Lunch: Indian Butter Chicken
+DESCRIPTION:Indian Butter Chicken\nV Indian Butter Tofu and\nChickpeas\nJ
+ asmine Rice\nPeas
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261021@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:UE Lunch: Pasta Bar
+DESCRIPTION:Pasta Bar\nV Marinara\nV Alfredo\nItalian Meat Sauce\nGarlic 
+ Green Beans
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261022@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:UE Lunch: Creamy Poblano Chicken
+DESCRIPTION:Creamy Poblano Chicken\nV Tex Mex Power Bowl\nSpanish Rice\nC
+ orn and Peppers\nChocolate Cherry Brownie
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261023@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:UE Lunch: Chicago Hot Beef Sandwich
+DESCRIPTION:Chicago Hot Beef Sandwich\nV Vegan Meat Ball Sandwich\nJoJo F
+ ries\nRoasted Broccoli
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261026@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:UE Lunch: Chicken Tinga Tostado
+DESCRIPTION:Chicken Tinga Tostado\nV Black Bean Tostada\nMexican Roasted 
+ Potatoes
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261027@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:UE Lunch: Penne Matriciani
+DESCRIPTION:Penne Matriciani\nV Pasta Marinara\nRoasted Cauliflower
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261028@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:UE Lunch: Chimichurri Chicken
+DESCRIPTION:Chimichurri Chicken\nV Chimichurri Power Bowl\nCreamy Polenta
+ \nPlantains
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261029@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:UE Lunch: Korean Pork BBQ Taco
+DESCRIPTION:Korean Pork BBQ Taco\nV Korean Tofu BBQ Taco\nHouse Pickled V
+ eggies\nSesame Rice\nItalian Ice
+LOCATION:The Blake School
+END:VEVENT
+BEGIN:VEVENT
+UID:blake-upper-elementary-20261030@github
+DTSTAMP:20261001T123628Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:UE Lunch: Chicken Tenders
+DESCRIPTION:Chicken Tenders\nV Vegan Tenders\nGravy\nMashed Potatoes\nCor
+ n\nWorms in Dirt
+LOCATION:The Blake School
+END:VEVENT
 END:VCALENDAR
